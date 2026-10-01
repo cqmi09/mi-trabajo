@@ -8,12 +8,28 @@
 
   <h2>Captura de Datos</h2>
 
-  <form id="formulario" action="https://script.google.com/macros/s/AKfycbyUZIZtJykGooNiwezhfZppBh-otgaND-r8hS1aZLgkHZgLhQKziAcCo0Zf65B1BBReXQ/exec" method="POST" target="hidden_iframe" onsubmit="enviado()">
+  <form id="formulario" action="https://script.google.com/macros/s/AKfycbxtmRGzSfd_xrViLWqK1QeMcfL1VJcRkO50USPow7IYQFlejEZGz1oNWpfSRoNmMxBg/exec" method="POST" target="hidden_iframe" onsubmit="enviado()">
     <label for="nombre">Nombre:</label><br>
     <input type="text" id="nombre" name="nombre" required><br><br>
 
     <label for="edad">Edad:</label><br>
-    <input type="number" id="edad" name="edad" required min="1" max="120"><br><br>
+        <input type="text" id="edad" name="edad" required><br><br>
+
+  
+    <label for="matricula">matricula:</label><br>
+    <input type="text" id="matricula" name="matricula" required><br><br>
+
+    <label for="curp">curp:</label><br>
+    <input type="text" id="curp" name="curp" required><br><br>
+
+    <label for="genero">genero:</label><br>
+    <input type="text" id="genero" name="genero" required><br><br>
+
+    <label for="peso">peso:</label><br>
+    <input type="text" id="peso" name="peso" required><br><br>
+
+    <label for="estatura">estatura:</label><br>
+    <input type="text" id="estatura" name="estatura" required><br><br>
 
     <button type="submit" id="btnEnviar">Enviar</button>
   </form>
